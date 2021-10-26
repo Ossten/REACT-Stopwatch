@@ -1,0 +1,16 @@
+.header {
+  background-color: $color-background-2;
+  color: $color-text;
+  height: 15vh;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+
+  &__text-box {
+    font-size: 5rem;
+    margin: auto;
+    background-color: inherit;
+    font-family: "Squared-7";
+  }
+}

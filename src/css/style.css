@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Digital-7";
+  src: url("../css/fonts/digital-7-mono.ttf");
+}
+
+@font-face {
+  font-family: "Squared-7";
+  src: url("../css/fonts/square_sans_serif_7.ttf");
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 3rem;
+  cursor: pointer;
+  font-family: "Squared-7";
+  color: #1a1d1e;
+  text-align: center;
+  margin: 15vh 9rem 2rem 9rem;
+  border: 1rem double #1a1d1e;
+  user-select: none;
+  padding-top: 5rem;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+.btn--start {
+  background-color: #008000;
+}
+
+.btn--stop {
+  background-color: #ff4500;
+}
+
+.btn--disabled {
+  background-color: #808080;
+}
+
+.btn--lap {
+  background-color: #fff700;
+}
+
+.btn--reset {
+  background-color: #00bfff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 80vh;
+  background-color: #1a1d1e;
+  text-align: center;
+}
+.container__counter {
+  font-family: "Digital-7";
+  color: #fffff0;
+  font-size: 5rem;
+  padding: 5rem;
+}
+
+.footer {
+  background-color: #32174d;
+  color: #fffff0;
+  height: 5vh;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+.footer__text-box {
+  font-size: 1rem;
+  padding: 0rem;
+  background-color: inherit;
+  font-family: "Squared-7";
+}
+
+.header {
+  background-color: #32174d;
+  color: #fffff0;
+  height: 15vh;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+}
+.header__text-box {
+  font-size: 5rem;
+  margin: auto;
+  background-color: inherit;
+  font-family: "Squared-7";
+}

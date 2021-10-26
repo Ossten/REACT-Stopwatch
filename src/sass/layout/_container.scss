@@ -1,0 +1,22 @@
+.container {
+  height: 80vh;
+  background-color: $color-background-1;
+  text-align: center;
+  &__counter {
+    font-family: "Digital-7";
+    color: $color-text;
+    font-size: 5rem;
+    padding: 5rem;
+  }
+  &__lapList {
+    font-family: "Digital-7";
+    font-style: italic;
+    color: $color-text;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    list-style-type:none;
+    &--lap{
+      padding-top: 0.5rem;
+    }
+  }
+}

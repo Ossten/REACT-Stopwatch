@@ -1,0 +1,50 @@
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 10rem 10rem 0 10rem;
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+  font-size: 3rem;
+  cursor: pointer;
+  font-family: "Squared-7";
+  color: $color-background-1;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  border: 1rem double $color-background-1;
+  user-select: none;
+  padding: 5rem 5rem 0 5rem;
+  opacity: 0.8;
+  outline: none;
+
+  &:hover {
+    transform: translateY(-3px);
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  &--start {
+    background-color: $color-btn-green;
+  }
+  &--stop {
+    background-color: $color-btn-red;
+  }
+
+  &--disabled {
+    background-color: $color-btn-grey;
+  }
+
+  &--lap {
+    background-color: $color-btn-yellow;
+  }
+  &--reset {
+    background-color: $color-btn-blue;
+  }
+}
